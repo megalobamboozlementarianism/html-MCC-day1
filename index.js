@@ -11,7 +11,7 @@ function onLoadContent() {
   document
     .getElementById('yay-input')
     .addEventListener('change', function () {
-      let newItem = document.getElementById('yay-input'.input;
+      let newItem = document.getElementById('yay-input'.input)
       console.log("new list item: ", newItem);
     })
 }
@@ -37,7 +37,7 @@ for (var i = 0; i < arr.length; i++) {
 
 }
 
-
+//hi
 
 var ulList = document.getElementById('things-list')
 
